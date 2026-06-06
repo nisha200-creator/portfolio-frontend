@@ -3,7 +3,7 @@ import axios from "axios";
 
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import "../css/Contact.css";
+import "../css/contact.css";
 
 function Contact() {
   const [formData, setFormData] = useState({
