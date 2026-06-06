@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import "../css/Projects.css";
+import "../css/projects.css";
 
 function Projects() {
 
