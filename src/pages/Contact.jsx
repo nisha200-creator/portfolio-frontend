@@ -1,11 +1,8 @@
 import { useState } from "react";
-import axios from "axios";
-
+import emailjs from "@emailjs/browser";
 
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-
-
 
 import "../css/contact.css";
 
@@ -28,9 +25,16 @@ function Contact() {
     e.preventDefault();
 
     try {
-      await axios.post(
-        "http://127.0.0.1:8000/api/contact/",
-        formData
+      await emailjs.send(
+        "service_539ue7l",
+        "template_8lgniiq",
+        {
+          name: formData.name,
+          email: formData.email,
+          subject: formData.subject,
+          message: formData.message,
+        },
+        "UWjxl2KFYu0a60RmrXbbG"
       );
 
       alert("Message Sent Successfully!");
@@ -42,15 +46,8 @@ function Contact() {
         message: "",
       });
     } catch (error) {
-
       console.log(error);
-
-      console.log(error.response);
-
-      console.log(error.response?.data);
-
-      alert(JSON.stringify(error.response?.data));
-
+      alert("Failed to send message!");
     }
   };
 
