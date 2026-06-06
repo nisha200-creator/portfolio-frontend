@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../css/Footer.css";
+import "../css/footer.css";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Footer() {
