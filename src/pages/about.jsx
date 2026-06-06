@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import profileImg from "../assets/passportsize_photo.jpeg";
-import "../css/About.css";
+import "../css/about.css";
 
 function About() {
   return (
