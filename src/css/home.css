@@ -207,3 +207,97 @@ body{
 }
 
 }
+
+
+/* animation */
+
+
+
+.hero-content{
+    animation: fadeLeft 1.2s ease;
+}
+
+.profile-circle{
+    animation: floatImage 4s ease-in-out infinite;
+    box-shadow: 0 0 30px rgba(0,212,255,.35);
+}
+
+.hero-content h1{
+    animation: glowText 3s ease-in-out infinite alternate;
+}
+
+.resume-btn,
+.project-btn{
+    transition: all .4s ease;
+}
+
+.resume-btn:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,212,255,.4);
+}
+
+.project-btn:hover{
+    transform: translateY(-5px);
+}
+
+.skill-list span{
+    transition: .3s;
+}
+
+.skill-list span:hover{
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,212,255,.25);
+}
+
+.stats-section .col-md-3{
+    animation: fadeUp 1s ease;
+}
+
+.project-card{
+    animation: fadeUp 1s ease;
+}
+
+/* Keyframes */
+
+@keyframes fadeLeft{
+    from{
+        opacity:0;
+        transform:translateX(-60px);
+    }
+    to{
+        opacity:1;
+        transform:translateX(0);
+    }
+}
+
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(50px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+@keyframes floatImage{
+    0%{
+        transform:translateY(0);
+    }
+    50%{
+        transform:translateY(-15px);
+    }
+    100%{
+        transform:translateY(0);
+    }
+}
+
+@keyframes glowText{
+    from{
+        text-shadow:0 0 10px rgba(0,212,255,.3);
+    }
+    to{
+        text-shadow:0 0 25px rgba(0,212,255,.8);
+    }
+}
