@@ -2,7 +2,9 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "../css/home.css";
 
+
 import profileImg from "../assets/passportsize_photo.jpeg";
+
 function Home() {
   const skills = [
     "HTML",
@@ -14,10 +16,11 @@ function Home() {
     "Django",
     "MySQL",
     "Git",
+    "AWS",
   ];
 
   const projects = [
-     {
+    {
       title: "Johnnette  Technologies",
       link: "https://www.johnnette.com",
     },
@@ -29,7 +32,7 @@ function Home() {
       title: "Livingstone Vehicles",
       link: "https://www.livingstonevehicles.com",
     },
-   
+
   ];
 
   return (
@@ -37,6 +40,7 @@ function Home() {
       <Navbar />
 
       <section className="hero-section">
+
         <div className="container">
           <div className="row align-items-center">
 
@@ -85,6 +89,14 @@ function Home() {
 
           </div>
         </div>
+
+        {/* Signature */}
+        <img
+          src="/signature.png"
+          alt="Signature"
+          className="hero-signature"
+        />
+
       </section>
 
       <section className="skills-section">

@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import profileImg from "../assets/passportsize_photo.jpeg";
+import profileImg from "../assets/about.png";
 import "../css/about.css";
 
 function About() {

@@ -63,62 +63,40 @@ function Projects() {
                     </div>
 
                     <div className="row">
+                        {projects.map((item, index) => (
+                            <div
+                                className="col-lg-6 mb-4"
+                                key={index}
+                            >
+                                <div className="project-box">
 
-                        {
-                            projects.map((item, index) => (
+                                    <img
+                                        src={item.image}
+                                        alt={item.title}
+                                        className="project-image"
+                                    />
 
-                                <div
-                                    className="col-lg-6 mb-4"
-                                    key={index}
-                                >
-
-                                    <div className="project-box">
-
-                                        <img
-                                            src={item.image}
-                                            alt={item.title}
-                                            className="project-image"
-                                        />
-
-                                        <div className="project-number">
-                                            0{index + 1}
-                                        </div>
-
-                                        <h2>{item.title}</h2>
-
-                                        <div className="project-number">
-
-                                            0{index + 1}
-
-                                        </div>
-
-                                        <h2>
-                                            {item.title}
-                                        </h2>
-
-                                        <h5>
-                                            {item.tech}
-                                        </h5>
-
-                                        <p>
-                                            {item.desc}
-                                        </p>
-
-                                        <a
-                                            href={item.live}
-                                            target="_blank"
-                                            rel="noreferrer"
-                                        >
-                                            Visit Project
-                                        </a>
-
+                                    <div className="project-number">
+                                        {String(index + 1).padStart(2, "0")}
                                     </div>
 
+                                    <h2>{item.title}</h2>
+
+                                    <h5>{item.tech}</h5>
+
+                                    <p>{item.desc}</p>
+
+                                    <a
+                                        href={item.live}
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        Visit Project
+                                    </a>
+
                                 </div>
-
-                            ))
-                        }
-
+                            </div>
+                        ))}
                     </div>
 
                 </div>

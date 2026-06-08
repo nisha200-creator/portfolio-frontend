@@ -11,7 +11,12 @@ function Navbar() {
 
           <div className="logo">
             <Link to="/">
-              Nisha<span>.</span>
+              <img
+                src="/logo.png"
+                alt="Logo"
+                className="logo-img"
+              />
+              {/* Nisha<span>.</span> */}
             </Link>
           </div>
 

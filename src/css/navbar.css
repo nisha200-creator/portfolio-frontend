@@ -11,12 +11,14 @@
     width:100%;
     z-index:1000;
 
-    background:rgba(0,0,0,.8);
+    background:transparent;
     backdrop-filter:blur(20px);
 
-    border-bottom:1px solid rgba(255,255,255,.08);
+    /* border-bottom:1px solid rgba(255,255,255,.08); */
 
     padding:18px 0;
+        height: 101px;
+
 }
 
 .navbar-main{
@@ -28,10 +30,19 @@
 /* Logo */
 
 .logo a{
+    display:flex;
+    align-items:center;
+    gap:10px;
     text-decoration:none;
-    font-size:34px;
+    color:#fff;
+    font-size:28px;
     font-weight:700;
-    color:white;
+}
+
+.logo-img{
+    width:100px;
+    height:100px;
+    object-fit:contain;
 }
 
 .logo span{
