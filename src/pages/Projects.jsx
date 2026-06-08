@@ -6,12 +6,12 @@ function Projects() {
 
     const projects = [
 
-        // {
-        //     title: "FT Magazine",
-        //     tech: "Python • Django • JavaScript • SQL",
-        //     desc: "Developed a full-stack news and magazine platform with authentication, admin panel, SEO features and dynamic content management.",
-        //     live: "https://www.ft-magazine.com"
-        // },
+        {
+            title: "livingstone store",
+            tech: "Shopify",
+            desc: "DLivingstone Store – Shopify-based eCommerce website developed with customized themes, responsive design, product catalog management, secure checkout, and SEO optimization. Focused on delivering a seamless shopping experience across desktop and mobile devices while improving usability and online sales performance.",
+            live: "https://livingstonestore.com/"
+        },
 
         {
             title: "Johnnette Technologies",

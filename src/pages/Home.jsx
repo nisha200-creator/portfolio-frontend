@@ -21,10 +21,10 @@ function Home() {
       title: "Johnnette  Technologies",
       link: "https://www.johnnette.com",
     },
-    // {
-    //   title: "FT Magazine",
-    //   link: "https://www.ft-magazine.com",
-    // },
+    {
+      title: "livingstone store",
+      link: "https://livingstonestore.com/",
+    },
     {
       title: "Livingstone Vehicles",
       link: "https://www.livingstonevehicles.com",
