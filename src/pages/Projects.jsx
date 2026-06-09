@@ -36,7 +36,7 @@ function Projects() {
 
         {
             title: "Future technologies summit",
-            image: livingstoneVehiclesImg,
+            image: FTSImg,
             tech: "HTML • CSS • JavaScript • Wix",
             desc: "Developed and maintained a futuretechnologiessummit website with responsive design and customer enquiry features.",
             live: "https://www.futuretechnologiessummit.com/",
