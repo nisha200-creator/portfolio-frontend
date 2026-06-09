@@ -5,6 +5,7 @@ import "../css/projects.css";
 import livingstoneStoreImg from "../assets/projects/livingstonestore.png";
 import johnnetteImg from "../assets/projects/johnnette.png";
 import livingstoneVehiclesImg from "../assets/projects/livingstonevehicles.png";
+import FTSImg from "../assets/projects/FTS.png";
 
 function Projects() {
 
@@ -31,6 +32,14 @@ function Projects() {
             tech: "HTML • CSS • JavaScript • Wix",
             desc: "Developed and maintained a luxury automotive website with responsive design and customer enquiry features.",
             live: "https://www.livingstonevehicles.com",
+        },
+
+        {
+            title: "Future technologies summit",
+            image: livingstoneVehiclesImg,
+            tech: "HTML • CSS • JavaScript • Wix",
+            desc: "Developed and maintained a futuretechnologiessummit website with responsive design and customer enquiry features.",
+            live: "https://www.futuretechnologiessummit.com/",
         },
 
 

@@ -32,6 +32,10 @@ function Home() {
       title: "Livingstone Vehicles",
       link: "https://www.livingstonevehicles.com",
     },
+    {
+      title: "FTS",
+      link: "https://www.futuretechnologiessummit.com/",
+    },
 
   ];
 
