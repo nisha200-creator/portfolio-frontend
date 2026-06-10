@@ -55,7 +55,7 @@ function Home() {
 
               <h1>Nisha Das</h1>
 
-              <h2>Full Stack Developer</h2>
+              <h2>Junior Web Developer</h2>
 
               <p>
                 I build modern, responsive and scalable
